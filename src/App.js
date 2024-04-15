@@ -6,26 +6,22 @@ import NImage from './assets/N.png';
 import GImage from './assets/G.png';
 import OImage from './assets/O.png';
 
-
-
 function App() {
   // Function to generate a random number between 1 and 75 (inclusive)
   const generateRandomNumber = () => {
-    return Math.floor(Math.random() * 75) + 1;
+    return Math.floor(Math.random() * 35) + 1;
   };
 
-  // Generate a new set of Bingo numbers
+  // Generate a new set of Bingo numbers (4x4 grid)
   const generateBingoCard = () => {
     const numbers = [];
-    // Generate 24 unique random numbers (1-75) for the Bingo card
-    while (numbers.length < 24) {
+    // Generate 16 unique random numbers (1-35) for the Bingo card (4x4 grid)
+    while (numbers.length < 16) {
       const randomNumber = generateRandomNumber();
       if (!numbers.includes(randomNumber)) {
         numbers.push(randomNumber);
       }
     }
-    // Add a 'FREE' space in the center of the card (at index 12)
-    numbers.splice(12, 0, 'FREE');
     return numbers;
   };
 
@@ -36,14 +32,15 @@ function App() {
     setBingoNumbers(generateBingoCard());
   };
 
-  // Render the Bingo card grid
+  // Render the Bingo card grid (4x4)
   const renderBingoCard = () => {
     return (
       <div className="bingo-card">
         {bingoNumbers.map((number, index) => (
           <div key={index} className="bingo-cell">
+            {/* Display the number or image based on the Bingo number */}
             {number}
-          </div>
+        </div>
         ))}
       </div>
     );
@@ -60,12 +57,14 @@ function App() {
           <li><img src={OImage}/></li>
         </ul>
         <div className="grid-container">
-        {renderBingoCard()}
+          {renderBingoCard()}
         </div>
-        <button className="randomize-button" onClick={handleRandomizeClick}>
-          Randomize Numbers
-        </button>
+        <div>
+          <p className="footer">Refresh page to randomize</p>
+          <p className="footer">&copy; ICS Socials Committee. 2024</p>
+        </div>
       </header>
+      
     </div>
   );
 }
