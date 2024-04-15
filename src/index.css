@@ -1,7 +1,7 @@
 body {
   background-image: url('./assets/icsbingobg.png');
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: auto;
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -64,8 +64,8 @@ h1 {
   font-weight: bold;
   color: #333;
   background-color: #fff;
-  /* border: 2px solid #333; */
   border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Adjust the spread radius and color as needed */
 }
 
 /* Style for the 'FREE' cell */
