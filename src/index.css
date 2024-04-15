@@ -27,6 +27,7 @@ h1 {
 }
 
 .App-header {
+  position: relative;
   text-align: center;
   padding: 0 20px;
   margin: 0 20px;
@@ -52,7 +53,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  min-width: 400px;
+  min-width: 350px;
   margin-top: 20px;
 }
 
@@ -75,6 +76,31 @@ h1 {
   color: #fff;
   border-color: #007bff;
 }
+
+.confettiA {
+  position: absolute;
+  top: 0%; /* Position vertically centered */
+  left: 10%; /* Position a bit to the left */
+  transform: translate(-50%, -50%); /* Center the image precisely */
+  opacity: 90%;
+}
+
+/* CSS for positioning confettiB */
+.confettiB {
+  position: absolute;
+  top: 100%; /* Position vertically centered */
+  right: 10%; /* Position a bit to the right */
+  transform: translate(50%, -50%); /* Center the image precisely */
+  opacity: 90%;
+
+}
+
+.confettiA,
+.confettiB {
+  width: 400px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
 
 .randomize-button {
   padding: 10px 20px;

@@ -5,6 +5,7 @@ import IImage from './assets/I.png';
 import NImage from './assets/N.png';
 import GImage from './assets/G.png';
 import OImage from './assets/O.png';
+import confetti from './assets/confetti.png';
 
 function App() {
   // Function to generate a random number between 1 and 75 (inclusive)
@@ -48,7 +49,9 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-header">
+        
+        <img className="confettiA" src={confetti}/>
         <ul className='bingo-header'>
           <li><img src={BImage}/></li>
           <li><img src={IImage}/></li>
@@ -63,7 +66,10 @@ function App() {
           <p className="footer"><br />Refresh page to randomize</p>
           <p className="footer">&copy; ICS Socials Committee. 2024</p>
         </div>
-      </header>
+        <div>
+          <img className="confettiB" src={confetti}/>
+        </div>
+      </div>
       
     </div>
   );
