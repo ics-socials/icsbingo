@@ -60,7 +60,7 @@ function App() {
           {renderBingoCard()}
         </div>
         <div>
-          <p className="footer">Refresh page to randomize</p>
+          <p className="footer"><br />Refresh page to randomize</p>
           <p className="footer">&copy; ICS Socials Committee. 2024</p>
         </div>
       </header>
