@@ -57,7 +57,13 @@ function App() {
     27: "(A'+R')'MGIE",
     28: "The Songer",
     29: "Lights, Camera, Action!",
-    30: "Luv Instructor"
+    30: "Luv Instructor",
+    31: "Student: Nonchalant",
+    32: "Student: Taga-Malayo XD",
+    33: "Student: Non BSCS Student",
+    34: "Student: Anak ng UPLB Alum", 
+    35: "Student: Graduate student"
+
     // Add more labels as needed
   };
 
