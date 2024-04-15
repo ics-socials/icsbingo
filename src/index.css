@@ -1,7 +1,7 @@
 body {
   background-image: url('./assets/icsbingobg.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% auto;
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
