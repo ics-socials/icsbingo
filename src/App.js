@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
+import BImage from './assets/B.png';
+import IImage from './assets/I.png';
+import NImage from './assets/N.png';
+import GImage from './assets/G.png';
+import OImage from './assets/O.png';
+
+
 
 function App() {
   // Function to generate a random number between 1 and 75 (inclusive)
@@ -45,7 +52,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Bingo Card</h1>
+        <ul className='bingo-header'>
+          <li><img src={BImage}/></li>
+          <li><img src={IImage}/></li>
+          <li><img src={NImage}/></li>
+          <li><img src={GImage}/></li>
+          <li><img src={OImage}/></li>
+        </ul>
         <div className="grid-container">
         {renderBingoCard()}
         </div>
