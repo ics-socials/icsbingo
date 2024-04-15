@@ -8,9 +8,21 @@ import OImage from './assets/O.png';
 import confetti from './assets/confetti.png';
 
 function App() {
+  const generateRandomString = (length) => {
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    let result = '';
+    for (let i = 0; i < length; i++) {
+      result += characters.charAt(Math.floor(Math.random() * characters.length));
+    }
+    return result;
+  };
+
+  // Generate a 16-character control number
+  const controlNumber = generateRandomString(16);
+
   // Function to generate a random number between 1 and 75 (inclusive)
   const generateRandomNumber = () => {
-    return Math.floor(Math.random() * 36) + 1;
+    return Math.floor(Math.random() * 37) + 1;
   };
 
   // Generate a new set of Bingo numbers (4x4 grid)
@@ -104,8 +116,8 @@ function App() {
           {renderBingoCard()}
         </div>
         <div>
-          <p className="footer"><br />Refresh page to randomize</p>
-          <p className="footer">&copy; ICS Socials Committee. 2024</p>
+          <p className="footer"><br />Control Number: {controlNumber}<br />Refresh page to randomize</p>
+          <p className="footer">&copy; Institute of Computer Science. 2024</p>
         </div>
         <div>
           <img className="confettiB" src={confetti} alt="Confetti" />
