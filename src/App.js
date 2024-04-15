@@ -10,7 +10,7 @@ import confetti from './assets/confetti.png';
 function App() {
   // Function to generate a random number between 1 and 75 (inclusive)
   const generateRandomNumber = () => {
-    return Math.floor(Math.random() * 35) + 1;
+    return Math.floor(Math.random() * 36) + 1;
   };
 
   // Generate a new set of Bingo numbers (4x4 grid)
@@ -28,41 +28,42 @@ function App() {
 
   // Mapping of numbers to custom labels
   const bingoLabels = {
-    1: "ICS Founder's Son",
+    1: "EliZita",
     2: "The Bicolana Computing Mom",
-    3: "Has 8 cats",
+    3: "Catdad skater",
     4: "Has a green pet parrot",
-    5: "Enjoys freediving",
-    6: "#DataBAE",
-    7: "Environmental Advocate and loves chicken",
-    8: "Enjoys baking",
-    9: "Mermaid",
-    10: "Enjoys watching UAAP live",
-    11: "Hindi mapakali pag walang gulay ang pagkain",
-    12: "The K-pop Stan",
-    13: "Okay ka",
-    14: "The history enthusiast",
-    15: "HAHAHAHA",
-    16: "2022 Jowable Award winner",
-    17: "ICS Oppa",
-    18: "Has a blog named Uptime",
-    19: "IGN: bladar",
-    20: "One Grande please",
-    21: "Loves to cook",
-    22: "Rides a bike to campus",
-    23: "Star wars nerd",
-    24: "Mr D.J.",
-    25: "Proud member of Google Dev Group PH",
-    26: "The Parallel Computing Expert",
-    27: "(A'+R')'MGIE",
-    28: "The Songer",
-    29: "Lights, Camera, Action!",
-    30: "Luv Instructor",
-    31: "Student: Nonchalant",
-    32: "Student: Taga-Malayo XD",
-    33: "Student: Non BSCS Student",
-    34: "Student: Anak ng UPLB Alum", 
-    35: "Student: Graduate student"
+    5: "#DataBAE",
+    6: "Environmental Advocate and loves chicken",
+    7: "Enjoys watching UAAP live",
+    8: "The K-pop Stan",
+    9: "Okay ka",
+    10: "The history enthusiast",
+    11: "HAHAHAHA",
+    12: "One half crosswise cutie",
+    13: "ICS Oppa",
+    14: "ICS Cybertito",
+    15: "IGN: bladar",
+    16: "One Grande please",
+    17: "Digital Agriculture",
+    18: "Loves to cook",
+    19: "Rides a bike to campus",
+    20: "Star wars nerd",
+    21: "Mr D.J.",
+    22: "Care Bear Awardee 2023",
+    23: "The Parallel Computing Expert",
+    24: "(A'+R')'MGIE",
+    25: "The Songer",
+    26: "Lights, Camera, Action!",
+    27: "OOTD Everyday",
+    28: "Filipina Mother of NLP",
+    29: "Cutie Summa Cum Lodi",
+    30: "FatherFigure02",
+    31: "Baby Powder",
+    32: "Student: Nonchalant",
+    33: "Student: Taga-Malayo XD",
+    34: "Student: Non BSCS Student",
+    35: "Student: Anak ng UPLB Alum", 
+    36: "Student: Graduate student"
 
     // Add more labels as needed
   };
