@@ -1,0 +1,41 @@
+// Mapping of numbers to custom labels
+  const bingoLabels = {
+    1: "EliZita",                                   //JPVJA
+    2: "OOP Mom",                                   //MRAA
+    3: "Catdad skater",
+    4: "Sardine Runner",
+    5: "#DataBAE",                                  //JIGC
+    6: "Environmental Advocate and loves chicken",  //RCC
+    7: "Enjoys watching UAAP live",                 //MAAD will be missed
+    8: "The K-pop Stan",                            //MEDC
+    9: "Okay ka",
+    10: "The history enthusiast",                   
+    11: "HAHAHAHA",                                 //JOG
+    12: "One half crosswise cutie",
+    13: "ICS Oppa",
+    14: "ICS Cybertito",                        
+    15: "IGN: bladar",      //ENCI
+    16: "NuNull",           //AJJ
+    17: "“Digital Agriculture”",
+    18: "Loves to cook",
+    19: "Come Closer",
+    20: "Star wars nerd",
+    21: "Mr D.J.",
+    22: "“Care Bear Awardee 2023”",
+    23: "The Parallel Computing Expert",
+    24: "(A'+R')'MGIE",
+    25: "The Twirl-er",
+    26: "Recursively Enumerable Professor",
+    27: "“OOTD Everyday”",
+    28: "“Filipina Mother of NLP”",
+    29: "“Cutie Summa Cum Lodi”",
+    30: "“FatherFigure02”",
+    31: "“Baby Powder”",
+    32: "Find a Student: Nonchalant",
+    33: "Find a Student: Taga-Malayo XD",
+    34: "Find a Student: Non BSCS Student",
+    35: "Find a Student: Anak ng UPLB Alum", 
+    36: "Find a Student: Graduate student",
+    37: "Find a Student: BS ORG!"
+    // Add more labels as needed
+  };
