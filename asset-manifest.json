@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/icsbingo/static/css/main.20315a2f.css",
-    "main.js": "/icsbingo/static/js/main.4b2146d0.js",
+    "main.css": "/icsbingo/static/css/main.c4a34277.css",
+    "main.js": "/icsbingo/static/js/main.40849fe3.js",
     "static/js/453.7ddc545c.chunk.js": "/icsbingo/static/js/453.7ddc545c.chunk.js",
-    "static/media/icsbingobg.png": "/icsbingo/static/media/icsbingobg.7c620a292e6ee3949197.png",
+    "static/media/icsbingobg2.png": "/icsbingo/static/media/icsbingobg2.fe3647f529edcb3958a1.png",
     "static/media/confetti.png": "/icsbingo/static/media/confetti.875fcd78dfca342f8028.png",
     "static/media/N.png": "/icsbingo/static/media/N.4abd4e7d14e4d1031f00.png",
     "static/media/G.png": "/icsbingo/static/media/G.4439fc251864f9d56591.png",
     "static/media/B.png": "/icsbingo/static/media/B.9749769a1e72b92a5833.png",
     "index.html": "/icsbingo/index.html",
-    "main.20315a2f.css.map": "/icsbingo/static/css/main.20315a2f.css.map",
-    "main.4b2146d0.js.map": "/icsbingo/static/js/main.4b2146d0.js.map",
+    "main.c4a34277.css.map": "/icsbingo/static/css/main.c4a34277.css.map",
+    "main.40849fe3.js.map": "/icsbingo/static/js/main.40849fe3.js.map",
     "453.7ddc545c.chunk.js.map": "/icsbingo/static/js/453.7ddc545c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20315a2f.css",
-    "static/js/main.4b2146d0.js"
+    "static/css/main.c4a34277.css",
+    "static/js/main.40849fe3.js"
   ]
 }
