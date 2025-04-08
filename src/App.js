@@ -65,7 +65,7 @@ function App() {
     23: "Papers Please",
     24: "FatherFigure02",
     25: "Baby Powder",
-    26: "Pokemon #445 or #316",
+    26: "Pokemon #445 or #319",
     27: "Joker Laugh",
     28: "Steam Deck + GPD",
     29: "ICS Next Top Model",
